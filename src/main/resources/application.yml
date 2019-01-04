@@ -1,0 +1,9 @@
+logging:
+  path: /usr/local/jars/log/${spring.application.name}
+spring:
+  application:
+    name: msa-weather-city-server
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
